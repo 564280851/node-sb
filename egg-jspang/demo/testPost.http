@@ -1,0 +1,17 @@
+
+
+# no1
+# 不能随意多出空行，否则就会发送失败。得不到数据。
+POST http://127.0.0.1:7001/addPost HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+
+name=jspang
+
+# no2使用JSON的格式进行上传
+# POST http://127.0.0.1:7001/add HTTP/1.1
+# Content-Type:application/json
+
+# {
+#     "name":"小红",
+#     "age":18
+# }
