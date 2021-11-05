@@ -1,7 +1,3 @@
-## 课件地址
-
-http://www.jspang.com/detailed?id=79#toc354
-
 ## yarn 的安装&国内镜像
 
 ```
@@ -16,10 +12,9 @@ http://www.jspang.com/detailed?id=79#toc354
 ## yarn 新建 egg 项目
 
 ```
-- yarn create egg  --type=simple//使用yarn命令来创建一个egg项目
+- yarn create egg  --type=simple//创建一个egg项目
 - yarn install//安装相关的项目依赖。
 - yarn dev//开启项目(保存自动更新)
-- yarn add egg-view-ejs
 ```
 
 ## CSRF
