@@ -16,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/564280851/node-sb/issues"
   },
-  "homepage": "https://github.com/564280851/node-sb#readme"
+  "homepage": "https://github.com/564280851/node-sb#readme",
+  "dependencies": {}
 }
