@@ -1,0 +1,20 @@
+{
+  "name": "sb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node模板.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/564280851/node-sb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/564280851/node-sb/issues"
+  },
+  "homepage": "https://github.com/564280851/node-sb#readme"
+}
