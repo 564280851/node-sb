@@ -1,8 +1,18 @@
-const http = require("http");
-
-const server = http.createServer((req, res) => {
-  res.end("ok111");
-});
-
-// http://127.0.0.1
-server.listen(80);
+const name = {
+  singerList: [
+    {
+      country: "",
+      singer_id: 4558,
+      singer_mid: "0025NhIN2ylrP4",
+      singer_name: "周杰伦",
+      singer_pic: "http",
+    },
+    {
+      country: "",
+      singer_id: 4558,
+      singer_mid: "0025NhIN2ylrP4",
+      singer_name: "周杰伦2",
+      singer_pic: "http",
+    },
+  ],
+};
