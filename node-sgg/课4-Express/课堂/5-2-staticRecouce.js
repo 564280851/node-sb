@@ -6,10 +6,8 @@
 // - 网页内容
 
 const express = require("express");
-const app = express();
 
-const hostname = "127.0.0.1";
-const port = 80;
+const app = express();
 
 //设置「静态资源服务」中间件-网站的根目录-响应静态资源
 // 127.0.0.1默认 public/index.html
@@ -21,6 +19,9 @@ app.get("/", (req, res) => {
   res.send("网站首页");
 });
 
-app.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
+// http://127.0.0.1
+app.listen(80, () => {
+  console.log(`Server running`);
 });
+
+// -静态资源服务中间件 - 设置网站的根目录;

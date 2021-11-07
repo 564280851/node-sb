@@ -1,27 +1,14 @@
 
 https://www.bilibili.com/video/BV1hb4y1r7Vm?p=6
 
--13 end
+-42 end
 
 
 
 ---
 
 
-P35 136-0720-nodejs-express 的初体验
-P36 137-0720-nodejs-express 的路由功能
-P37 138--0720-nodejs-上午内容复习
-P38 139-0720-nodejs-express 获取报文
-P39 140--0720-nodejs-express 的路由传参
-P40 141--0720-nodejs-hosts 文件修改-使…
-P41 142--0720-nodejs-hosts 文件功能介…
-P42 143-0720-nodejs-express 框架的响应..
-P43 144-0720-nodejs-express 的中间件
-P44 145-0720-nodejs-express 的请求日志….
-P45 146-0720-nodejs-express 静态资源中.
-P46 147-0720-nodejs-express 响应内容的.
-P47 148-0720-nodejs-express 响应 PC 项...
-P48 149-0720-nodejs-今日内容复习
+
 
 P49 150-0721-歌手信息的展示
 P50 151-0721-请求体数据的提取
@@ -34,6 +21,8 @@ P56 157-0721-express 响应歌手列表的练习
 P57 158-0721-css 资源的抽离
 P58 159-0721-关于网页中 URL 的路径的
 P59 160-0721-上午内容的梳理
+
+
 P60 161-0721-数据库的介绍
 P61 162-0721-mongob 的安装以及服务的..
 P62 163-0721-mongodb 的三个重要的概..
@@ -46,7 +35,6 @@ P68 169-0721-mongoose 文档的查询
 P69 170-0721-数据库增删改查的应用场景
 P70 171-0721-读取的扩展
 P71 172-0721 今日内容的复习
-
 P72 173-0723-nodejs-内容复习
 P73 174-0723-nodejs-mongoose 代码的..
 P74 175
@@ -62,6 +50,8 @@ P84 185-0723-nodeis-修改学员信息
 P85 186-0723-nodejs-更新学员信息
 P86 187-0723-nodejs-图形化工具-studio3T
 P87 188-0723-nodejs-页面跳转的提示
+
+
 P90 191-文件上传的扩展内容
 P91 192-0724-会话控制的介绍
 P92 193-0724-cookie 的介绍以及实现会话…

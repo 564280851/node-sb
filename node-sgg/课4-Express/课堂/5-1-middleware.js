@@ -1,14 +1,9 @@
-// l18 express的中间件
 // 说明：先执行中间件，后执行路由回调
 const express = require("express");
 const moment = require("moment");
 const fs = require("fs");
 
 const app = express();
-
-const hostname = "127.0.0.1";
-const port = 80;
-
 /**
  * @getClientIP
  * @desc 获取用户 ip 地址
@@ -51,6 +46,16 @@ app.get("/cart", (req, res) => {
   res.send("购物车信息");
 });
 
-app.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
+// http://127.0.0.1
+app.listen(80, () => {
+  console.log(`Server running`);
 });
+
+
+
+// - 中间件
+
+//   - 就是函数
+//   - 作用:代码复用,简化代码
+//   - 应用场景:发现代码重复编写的时候
+
