@@ -7,14 +7,7 @@ https://www.bilibili.com/video/BV1hb4y1r7Vm?p=6
 
 ---
 
-P27 128-0720-nodejs-模块化的介绍
-P28 129-0720-nodejs-模块的创建与数据.
-P29 130-0720-nodejs-暴露数据的补充说明
-P30 131-0720-nodejs-模块的导入情况
-P31 132-0720-nodejs-npm 导入内置模块 n...
-P32 133-0720-nodejs-模块化内容的小结
-P33 134-0720-nodejs-模块化的小练习
-P34 135-0720-nodejs-封装函数用来生成..
+
 P35 136-0720-nodejs-express 的初体验
 P36 137-0720-nodejs-express 的路由功能
 P37 138--0720-nodejs-上午内容复习

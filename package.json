@@ -17,5 +17,7 @@
     "url": "https://github.com/564280851/node-sb/issues"
   },
   "homepage": "https://github.com/564280851/node-sb#readme",
-  "dependencies": {}
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }

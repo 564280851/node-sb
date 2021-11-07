@@ -1,37 +1,34 @@
-//l2-l7
+// 导入模块
+// ./是必需的
+// 相对路径
+// require 得到module.exports的值
 
-//## 导入模块
-//1 相对路径
-//2 ./是必需的
-//3 require 得到的结果就是目标模块中的module.exports的值
-
-// const m0 = require('./m0');
-// console.log(m0(2, 3));//m0=add
-
+// 只暴露1个函数
 // const m1 = require('./m1');
+// console.log(m1(2, 3));//m1=add
+
+// 只暴露多个函数,导入是对象
+// const m1 = require("./m1");
 // console.log(m1.add(1, 2));
 // console.log(m1.minus(1, 2));
 
-//## 导入数据
-// const m2 = require('./m2');
+// ## 导入数据,导入是对象
+// const m2 = require("./m2");
 // console.log(m2);//{ cls: 'H50510', pos: '3027' }
 
-// const myJson = require('./myJson.json');//返回是object
-// console.log(myJson, typeof myJson);
+// const data = require("./data.json"); //返回是object
+// console.log(data);
+// console.log(typeof data);
 
-// 2 其他后缀 略
-
-// 3 文件夹 略
-
-// 4 内置模块
+// 内置模块
 // const fs = require('fs');
 // const http = require('http');
 
-// 5 npm模块
+// npm模块
 // const moment = require('moment');
 // console.log(moment().format('YYYY-MM-DD HH:MM:SS'));
 
-// 6 自动向上查找 安装项目的根目录
+// 自动向上查找 安装项目的根目录
 
 /*
 总结：

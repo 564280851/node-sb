@@ -4,8 +4,8 @@ package.json 包的配置文件
 package-lock.json 锁文件,用来固定包的版本
 node_modules 下载包的存放目录
 
-npm init -y
-npm i lodash
+npm init -y★★★★★
+npm i <package>
 
 ## P11 112-0719-npm 初始化与包的安装
 
@@ -110,3 +110,15 @@ Windows
 ## P25 126-0719-今日内容总结
 
 ## P26 127-0720-nodejs-包管理工具的复习
+
+---
+
+## 其他命令
+
+npm -v //版本
+npm root (-g)//安装路径
+npm config list//查看配置信息
+npm update <package>
+npm config get registry
+npm uninstall \*
+npm list (-g)
