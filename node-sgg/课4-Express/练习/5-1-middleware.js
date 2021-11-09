@@ -21,6 +21,7 @@ function getClientIP(req) {
 // 声明中间件函数
 // 作用:代码复用,简化代码
 // next指向下一个路由回调
+// 每次请求都会执行
 let recordMiddleware = (req, res, next) => {
   let time = `[${moment().format("YYYY-MM-DD HH:mm:ss")}]`;
   let path = decodeURI(req.url);

@@ -1,9 +1,8 @@
 // 方法1
 // res.setHeader("Content-Type", "text/html;charset=utf-8");
 // res.end("中国");
-// 方法2
+// 方法2,不用设置字符集
 // res.send("首页信息");
-// 使用2，简单
 
 // * 没有找到匹配时用
 // all可以接受get或post
@@ -13,7 +12,6 @@
 // 此处”不是“80端口，post指定端口
 
 const express = require("express");
-
 const app = express();
 
 app.get("/", (req, res) => {
@@ -22,7 +20,6 @@ app.get("/", (req, res) => {
 app.post("/login", (req, res) => {
   res.send("登录信息");
 });
-
 app.all("*", (req, res) => {
   res.send("这里一个404页面");
 });

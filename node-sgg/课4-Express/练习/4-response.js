@@ -1,7 +1,7 @@
 const express = require("express");
-
 const app = express();
 
+// http://127.0.0.1
 app.get("/", (req, res) => {
   // 在chrome-network
   // res.statusCode = 404;//不用 方法1
@@ -27,7 +27,6 @@ app.get("/download", (req, res) => {
   res.download(__dirname + "/download"); //下载文件 只能单独使用
 });
 
-// http://127.0.0.1
 app.listen(80, () => {
   console.log(`Server running`);
 });
