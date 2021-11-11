@@ -7,7 +7,7 @@ const ejs = require("ejs");
 const fs = require("fs");
 
 //调用方法解析字符串
-let people = ["geddy", "neil", "alex"];
+let people = ["ged", "neil", "alex"];
 let html = ejs.render('<%= people.join(", "); %>', { people: people });
 // console.log(html);
 
