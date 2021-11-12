@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-const singers = require("./singers.json").req_1.singersList;
+const singers = require("./singers.json").req_1.data.singersList;
 
 // http://127.0.0.1/singer/4558
 app.get("/singer/:id", (req, res) => {

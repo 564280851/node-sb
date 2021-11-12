@@ -1,0 +1,27 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  background: #000;
+}
+
+.item {
+  width: 20%;
+  height: 200px;
+  /* border: solid 1px #ddd; */
+  text-align: center;
+  float: left;
+  background: #ddd;
+  margin-bottom: 20px;
+}
+
+.item img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+.item img:hover {
+  transform: scale(1.2) rotate(360deg);
+  /* transform: scale(1.2) rotateY(360deg); */
+}

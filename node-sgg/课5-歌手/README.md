@@ -18,4 +18,25 @@
 
 ## P58 159-0721-关于网页中 URL 的路径的
 
+- a
+- link
+- script
+- img
+- video
+- audio
+- iframe
+- form
+
+相对路径:发送请求时,会先计算路径,根据当前网页的 URL 与相对路径进行运算
+
+- (地址中省略最后 1 个/后的内容)，然后拼接
+  ./css/app.css
+  ../images/logo.png
+
+绝对路径:发送请求时,设置的是什么,发送就用什么（用 chrome 查看）
+
+- 优先使用
+  http://www.baidu.com
+  /js/app.js
+
 ## P59 160-0721-上午内容的梳理
