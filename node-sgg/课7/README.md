@@ -9,6 +9,34 @@
 
 ## P63 164-0721-数据库与集合的相关命令
 
+--- dbs
+
+1. 显示所有的数据库
+   show dbs
+   show databases
+
+2. (创建)切换到指定的数据库
+   use 数据库名
+
+3. 显示当前所在的数据库
+   db
+
+4. 删除当前数据库(先切换再删除)
+   use project_1
+   db.dropDatabase()
+
+--- collections
+
+5. 显示当前数据库中的所有集合
+   db.createCollection('books');
+   show collections
+
+6. 删除当前集合
+   db.collection.drop()
+
+7. 重命名集合
+   db.books.renameCollection('newName')
+
 ## P64 165-0721-文档的相关命令
 
 ## P65 166-0721-mongoose 的介绍以及基本…
