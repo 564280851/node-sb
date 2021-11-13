@@ -39,6 +39,23 @@
 
 ## P64 165-0721-文档的相关命令
 
+1. 插入文档
+   db.collection.insert({});
+   db.stars.insert({id:1, name:'吴亦凡, age: 31, gender: 1));
+2. 删除文档
+   db.collection.remove({})
+   db.stars.remove({age: 40})
+3. 更新文档
+   db.collection.update({},{$set:{}})
+   db.stars.update({name: ,李小璐}, {age: 40})//更新全部
+   db.stars.update({name: ,李小璐}, {$set:{age: 40}})//局部更新
+4. 查询文档
+   db.stars.find()
+5. 其他
+   db.collection.findOne ()
+   db.collection. updateOne ()
+   db.collection. updateMany ()
+
 ## P65 166-0721-mongoose 的介绍以及基本…
 
 ## P66 167-0721-mongoose 文档的批量插入
